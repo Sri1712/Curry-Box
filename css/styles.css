@@ -1,0 +1,213 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background: url(../images/bg-tile.gif) repeat;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial,  sans-serif ;
+    position: relative;
+}
+
+p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+h1,h2 {
+    font-size: 42px;
+    font-weight: normal;
+    font-family: 'Love Ya Like A Sister', cursive;
+    line-height: 44px;
+}
+
+h3,h4 {
+	font-size: 34px;
+    font-weight: normal;
+    font-family: 'Love Ya Like A Sister', cursive;
+    line-height: 44px;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+#main_menu #slider #about #amenities #contact {
+    width: 70%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial,  sans-serif ;
+}
+
+#mainMenu .nav-link {
+    color: #10a7be;
+    font-size: 16px;
+}
+
+#mainMenu .dropdown-item {
+    color: #10a7be;
+    font-size: 16px;
+}
+
+#mainMenu .nav-link:hover {
+    background: #17a2b8;
+    border-radius: 5px;
+    color: #262626;
+}
+
+#mainMenu .nav-link.active {
+    background: #17a2b8;
+    border-radius: 5px;
+    color: #262626;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #262626;
+}
+
+.btn {
+    color: white;
+}
+
+#slider {
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+#slider .carousel-inner {
+    width: 70%;
+    margin: auto;
+}
+
+#slider .carousel-inner img {
+    height: 650px;
+    width: 300px;
+}
+
+#about {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background: #17a2b8;
+    color: white;
+}
+
+#amenities {
+    padding-top: 80px;
+}
+
+#amenities h2{
+    padding-bottom: 20px;
+}
+
+.card {
+    padding-top: 20px;
+}
+
+.card img {
+    width: 87px;
+    height: 85px;
+    margin: 0 auto;
+}
+
+.card .card-body {
+    text-align: center;
+}
+
+#gallery {
+    background: #17a2b8;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#gallery_carousel .carousel-inner {
+    width: 80%;
+    margin: auto;
+} 
+
+#gallery_carousel .carousel-inner img {
+    border-radius: 2%;
+}
+
+#videos h2{
+    padding-bottom: 20px;
+}
+
+.video-row {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.video-row .col-md-5 {
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+iframe { 
+    display: block; 
+    width: 100%; 
+    border-radius: 3%;
+    padding-bottom: 20px;
+}  
+
+.header {
+    font-size: 20px;
+}
+
+#testimonials {
+    background: #17a2b8;
+}
+
+#testimonials h2 {
+    color: white;
+}
+
+.card {
+    border: none
+}
+
+.user-content p {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+span {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.ratings i {
+    color: blue
+}
+
+#contact {
+    background: url('../images/map.jpg');
+}
+
+footer {
+    background: #17a2b8;
+    color: white;
+}
+
+footer p {
+    font-size: 17px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    #slider {
+        padding-top: 60px;
+    }
+    #about {
+        padding: 25px;
+    }
+    #about .col-md-6.align-self-center{
+        padding-bottom: 25px;
+    }
+}
+  
