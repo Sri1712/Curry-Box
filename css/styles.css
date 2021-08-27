@@ -79,8 +79,9 @@ h5 {
 }
 
 #slider .carousel-inner img {
-    height: 650px;
-    width: 300px;
+    padding-top: 40px;
+    height: 50%;
+    width: 50%;
 }
 
 #about {
